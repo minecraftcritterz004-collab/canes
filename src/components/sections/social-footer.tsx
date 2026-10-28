@@ -5,26 +5,26 @@ const SocialFooter = () => {
     <>
       <div className="flex justify-center gap-1.5 mb-2">
         <a
-          href="https://ph.linkedin.com/company/the-home-depot"
+          href="https://www.linkedin.com/company/raising-cane's"
           aria-label="LinkedIn"
             className="w-7 h-7 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 hover:shadow-lg shadow-xl border"
-            style={{ backgroundColor: '#f96304', borderColor: '#f96304' }}>
+            style={{ backgroundColor: '#cb161d', borderColor: '#cb161d' }}>
 
           <Linkedin className="w-3 h-3 text-foreground" />
         </a>
         <a
-          href="https://www.facebook.com/HomeDepot"
+          href="https://www.facebook.com/RaisingCanesChickenFingers"
           aria-label="Facebook"
             className="w-7 h-7 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 hover:shadow-lg shadow-xl border"
-            style={{ backgroundColor: '#f96304', borderColor: '#f96304' }}>
+            style={{ backgroundColor: '#cb161d', borderColor: '#cb161d' }}>
 
           <Facebook className="w-3 h-3 text-foreground" />
         </a>
         <a
-          href="https://www.instagram.com/homedepot/"
+          href="https://www.instagram.com/raisingcanes/"
           aria-label="Instagram"
             className="w-7 h-7 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 hover:shadow-lg shadow-xl border"
-            style={{ backgroundColor: '#f96304', borderColor: '#f96304' }}>
+            style={{ backgroundColor: '#cb161d', borderColor: '#cb161d' }}>
 
           <Instagram className="text-foreground !w-3 !h-3" />
         </a>

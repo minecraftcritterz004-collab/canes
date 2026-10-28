@@ -6,7 +6,7 @@ const steps = [
   text: 'Click the "Start Review" button'
 },
 {
-  icon: Gift,
+  icon: Snowflake,
   text: 'Enter your email and basic details'
 },
 {
@@ -19,13 +19,13 @@ const steps = [
 },
 {
   icon: Snowflake,
-  text: "Receive your Home Depot gift card"
+  text: "Receive your Raising Cane's gift card"
 }];
 
 
 const StepsCard = () => {
   return (
-    <div className="relative backdrop-blur-sm rounded-lg mb-2 border shadow-2xl overflow-hidden" style={{ borderColor: '#f96304' }}>
+    <div className="relative backdrop-blur-sm rounded-lg mb-2 border shadow-2xl overflow-hidden" style={{ borderColor: '#cb161c' }}>
         <div
           className="absolute inset-0 bg-center bg-no-repeat bg-cover pointer-events-none opacity-10"
           style={{
@@ -37,11 +37,11 @@ const StepsCard = () => {
           const Icon = step.icon;
           return (
             <li key={index} className="flex items-start gap-1.5 text-[11px] md:text-xs">
-                    <span className="flex-shrink-0 w-4 h-4 rounded-full flex items-center justify-center font-bold text-[9px] mt-0.5 text-white" style={{ backgroundColor: '#f96304', color: '#ffffff' }}>
+                    <span className="flex-shrink-0 w-4 h-4 rounded-full flex items-center justify-center font-bold text-[9px] mt-0.5 text-white" style={{ backgroundColor: '#cb161c', color: '#ffffff' }}>
                       {index + 1}
                     </span>
               <div className="flex items-center gap-1 flex-1">
-                <span className="flex-shrink-0" style={{ color: '#f96304' }}>
+                <span className="flex-shrink-0" style={{ color: '#cb161c' }}>
                   <Icon className="w-2.5 h-2.5" />
                 </span>
                 <span className="text-black font-medium">{step.text}</span>
